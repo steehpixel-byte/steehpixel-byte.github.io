@@ -1,46 +1,59 @@
-<svg width="520" height="120" viewBox="0 0 520 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="purpleMetal" x1="0" y1="0" x2="520" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2B004F"/>
-      <stop offset="18%" stop-color="#5A189A"/>
-      <stop offset="34%" stop-color="#7B2CBF"/>
-      <stop offset="50%" stop-color="#C77DFF"/>
-      <stop offset="64%" stop-color="#9D4EDD"/>
-      <stop offset="82%" stop-color="#4B0082"/>
-      <stop offset="100%" stop-color="#E0AAFF"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg"
+width="900"
+height="430"
+viewBox="0 0 900 430"
+fill="none"
+role="img"
+aria-label="Logo SteehPixel roxo metalizado">
 
-    <linearGradient id="metalHighlight" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#E0AAFF" stop-opacity="0.95"/>
-      <stop offset="35%" stop-color="#7B2CBF" stop-opacity="0.45"/>
-      <stop offset="55%" stop-color="#F3D9FF" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#3C096C" stop-opacity="0.9"/>
-    </linearGradient>
+<defs>
+  <linearGradient id="metalPurple" x1="0" y1="0" x2="900" y2="430" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2B004F"/>
+    <stop offset="12%" stop-color="#4B0082"/>
+    <stop offset="25%" stop-color="#7B2CBF"/>
+    <stop offset="40%" stop-color="#C77DFF"/>
+    <stop offset="52%" stop-color="#F0C9FF"/>
+    <stop offset="63%" stop-color="#9D4EDD"/>
+    <stop offset="78%" stop-color="#5A189A"/>
+    <stop offset="100%" stop-color="#E0AAFF"/>
+  </linearGradient>
 
-    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
-      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#9D4EDD" flood-opacity="0.65"/>
-    </filter>
-  </defs>
+  <linearGradient id="metalStroke" x1="0" y1="0" x2="0" y2="430" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#F3D9FF"/>
+    <stop offset="30%" stop-color="#C77DFF"/>
+    <stop offset="65%" stop-color="#3C096C"/>
+    <stop offset="100%" stop-color="#9D4EDD"/>
+  </linearGradient>
 
-  <text x="12" y="78"
+  <filter id="purpleShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="3" stdDeviation="2.2" flood-color="#240046" flood-opacity="0.7"/>
+  </filter>
+</defs>
+
+<g filter="url(#purpleShadow)">
+  <text x="450" y="175"
+        text-anchor="middle"
         font-family="Poppins, Montserrat, Arial, Helvetica, sans-serif"
-        font-size="72"
-        font-weight="800"
-        letter-spacing="-3"
-        fill="url(#purpleMetal)"
-        stroke="url(#metalHighlight)"
-        stroke-width="1.2"
-        filter="url(#softGlow)">
-    SteehPixel
+        font-size="180"
+        font-weight="900"
+        letter-spacing="-12"
+        fill="url(#metalPurple)"
+        stroke="url(#metalStroke)"
+        stroke-width="3">
+    SP
   </text>
 
-  <path d="M20 25 H500"
-        stroke="url(#metalHighlight)"
-        stroke-width="2"
-        opacity="0.28"/>
+  <text x="450" y="360"
+        text-anchor="middle"
+        font-family="Poppins, Montserrat, Arial, Helvetica, sans-serif"
+        font-size="145"
+        font-weight="900"
+        letter-spacing="-8"
+        fill="url(#metalPurple)"
+        stroke="url(#metalStroke)"
+        stroke-width="2.5">
+    SteehPixel
+  </text>
+</g>
 
-  <path d="M22 42 H498"
-        stroke="#E0AAFF"
-        stroke-width="1"
-        opacity="0.18"/>
 </svg>
